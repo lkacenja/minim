@@ -1,0 +1,15 @@
+{% if page.header %}
+  <div class="region region-header">
+    {{ page.header }}
+  </div>
+{% endif %}
+{% if page.content %}
+  <div class="region region-content">
+    {{ page.content }}
+  </div>
+{% endif %}
+{% if page.footer %}
+  <footer class="region region-footer">
+    {{ page.footer }}
+  </footer>
+{% endif %}
