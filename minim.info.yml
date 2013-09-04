@@ -1,0 +1,13 @@
+name: Minim
+type: theme
+description: 'A minimal foundation for a sustainable theme in Drupal.'
+core: 8.x
+stylesheets:
+  all:
+    - css/objects.css
+    - css/layout.css
+    - css/media.css
+regions:
+  header : Header
+  content: Content
+  footer: Footer
