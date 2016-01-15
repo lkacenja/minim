@@ -2,12 +2,11 @@ name: Minim
 type: theme
 description: 'A minimal foundation for a sustainable theme in Drupal.'
 core: 8.x
-stylesheets:
-  all:
-    - css/objects.css
-    - css/layout.css
-    - css/media.css
+libraries:
+  - minim/global-styling
 regions:
-  header : Header
+  header: Header
   content: Content
+  sidebar_first: 'Sidebar first'
   footer: Footer
+
