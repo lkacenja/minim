@@ -6,4 +6,4 @@ require_once($theme_path . '/processors/base.inc');
 // Custom processing
 require_once($theme_path . '/processors/components.inc');
 // Views processing -- Uncomment if using views.
-// require_once($theme_path . '/processors/views.inc');
+require_once($theme_path . '/processors/views.inc');
