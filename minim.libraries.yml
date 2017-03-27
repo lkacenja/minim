@@ -2,6 +2,8 @@ global-styling:
   version: 1.x
   css:
     theme:
+      css/content.css: {}
+      css/tabs/css: {}
       css/layout.css: {}
       css/objects.css: {}
       css/media.css: {}
